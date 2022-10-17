@@ -16,12 +16,12 @@
 <hr>
 
 ## Script Flow
-1. Open two text files, where `(File 1)` contains HTML tags and `(File 2)` HTML events
+1. Open two text files, where `File 1` contains HTML tags and `File 2` HTML events
 2. Send a `GET` request for every tag to the target URL's search parameter
 
 <br>
 
-Example tag (`<b>`):
+Example tag `<b>`:
 
     https://YOUR-LAB-ID.web-security-academy.net/?search=%3Cb%3E
 
@@ -32,7 +32,7 @@ Example tag (`<b>`):
 
 <br>
 
-Example pair (`<svg animatetransform>`):
+Example pair `<svg animatetransform>`:
 
     https://YOUR-LAB-ID.web-security-academy.net/?search=%3Csvg%20animatetransform%3E
 
