@@ -4,7 +4,7 @@
 
 - This Python script automates the process for finding HTML tag and event pairs accepted by the target web application. A pair is considered accepted (e.g. `<svg animatetransform>`) if it returns a `200 OK` response. Having found an accepted pair, the tester would then manually inject a JavaScript event into the pair to test for XSS at the target URL's search parameter.
 
-- A `time delay` of (2) seconds is set between each request to avoid flooding the target web server too quickly
+- A time delay of `2` seconds is set between each request to avoid flooding the target web server too quickly
 
 - In this case, the lab's search parameter was vulnerable to Reflected XSS with the following payload:
 
