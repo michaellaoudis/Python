@@ -6,7 +6,9 @@
 
 - A time delay of `2` seconds is set between each request to avoid flooding the target web server too quickly
 
-- In this case, the lab's search parameter was vulnerable to Reflected XSS with the following payload:
+- Burp Suite is set as a proxy for HTTP traffic and will need to be open for the script to execute
+
+- In PortSwigger's Web Security Academy lab at https://portswigger.net/web-security/cross-site-scripting/contexts/lab-some-svg-markup-allowed, the search parameter was vulnerable to Reflected XSS with the following payload:
 
     `<svg><animatetransform onbegin=alert(1)`
 <br></br>
